@@ -1,6 +1,6 @@
 Face Recognition Project
 ***************
-Created by Gabriel Baziramwabo
+Created by Gabriel Baziramwabo<br>
 Founder of Benax Technologies Ltd.
 ***************
 1. File System:
@@ -43,7 +43,6 @@ The "tree" command typically returns the following file system:
    - tqdm: For progress bars and monitoring loops.
    - PIL (Python Imaging Library): For image processing and manipulation (e.g., converting to grayscale).
 
-<<<<<<< HEAD
 3. Procedure:
 - 3.1. Create Dataset: "python create_dataset.py". Before recording a face give it an ID.
 - 3.2. Review Dataset: "python review_dataset.py". This displays images located in the "dataset" directory one after another.
@@ -56,6 +55,7 @@ The "tree" command typically returns the following file system:
 - 3.9. Make prediction on the new unseen faces: "python predict.py"
 - 3.10. Based on the prediction made, control a device connected to the PC on which this AI progragram is running: "python predict_and_control.py". Look for the file sample_arduino_program.ino" which receives data from the host PC and control an LED accordingly.
 =======
+
 ---
 
 ## 📂 File System
@@ -215,7 +215,3 @@ python 080_predict_and_control.py
   ```
   Demonstrates controlling an LED based on recognition results.
 
----
-
-✅ With this pipeline, you can **capture**, **train**, **predict**, and even **control external hardware** using face recognition.
->>>>>>> d90f095f (introducing env)
