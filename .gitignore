@@ -6,7 +6,6 @@ __pycache__/
 *.pyd
 *.egg-info/
 *.egg
-.env
 .venv/
 venv/
 
@@ -14,7 +13,6 @@ venv/
 .DS_Store
 
 # IDE
-.vscode/
 .idea/
 
 # Build/Artifacts
@@ -35,3 +33,5 @@ venv/
 __pycache__/
 *.pyc
 .DS_Store
+config.bat
+node_modules
